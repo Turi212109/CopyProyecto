@@ -1,0 +1,92 @@
+﻿body {
+    background-color: #f0f0f0; /* Cambiado a un color de fondo más claro */
+    font-family: Arial, sans-serif; /* Fuente de texto genérica */
+}
+
+.registration-form {
+    padding: 50px 0;
+    text-align: center; /* Centra el contenido del formulario */
+}
+
+    .registration-form form {
+        background-color: #fff; /* Fondo blanco */
+        max-width: 400px; /* Reducción del ancho del formulario */
+        margin: auto;
+        padding: 20px; /* Menos espacio en el interior del formulario */
+        border-radius: 10px; /* Bordes más suaves */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    }
+
+    .registration-form .form-icon {
+        font-size: 40px; /* Tamaño de ícono reducido */
+        color: #4F36FF; /* Cambiado a un color similar al fondo del body */
+        width: 80px; /* Tamaño reducido */
+        height: 80px; /* Tamaño reducido */
+        margin: auto;
+        margin-bottom: 20px; /* Espacio inferior reducido */
+        line-height: 80px;
+    }
+
+    .registration-form .item {
+        margin-bottom: 20px; /* Espacio inferior reducido */
+        padding: 10px;
+        border: 1px solid #ccc; /* Borde sutil */
+        border-radius: 5px; /* Bordes suaves */
+    }
+
+    .registration-form .create-account {
+        padding: 10px 20px;
+        font-size: 16px; /* Tamaño de fuente reducido */
+        font-weight: bold;
+        background-color: #4F36FF;
+        border: none;
+        color: white;
+        border-radius: 5px; /* Bordes suaves */
+        margin-top: 20px;
+    }
+
+    .registration-form .social-media {
+        max-width: 400px; /* Reducción del ancho */
+        background-color: #fff;
+        margin: auto;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 10px; /* Bordes suaves */
+        color: #666; /* Cambiado a un tono más suave de gris */
+        border-top: 1px solid #ccc; /* Borde superior sutil */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    }
+
+    .registration-form .social-icons {
+        margin-top: 20px; /* Espacio superior reducido */
+    }
+
+        .registration-form .social-icons a {
+            font-size: 20px; /* Tamaño de fuente reducido */
+            margin: 0 10px; /* Espacio entre los íconos */
+            color: #4F36FF;
+            border: 1px solid #4F36FF; /* Borde en el mismo color */
+            border-radius: 50%;
+            width: 40px; /* Tamaño reducido */
+            height: 40px; /* Tamaño reducido */
+            text-align: center;
+            background-color: #fff;
+            line-height: 40px;
+        }
+
+            .registration-form .social-icons a:hover {
+                text-decoration: none;
+                opacity: 0.8; /* Opacidad ligeramente reducida */
+            }
+
+@media (max-width: 576px) {
+    .registration-form form {
+        padding: 30px; /* Espaciado reducido en dispositivos móviles */
+    }
+
+    .registration-form .form-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 28px; /* Tamaño de ícono reducido en dispositivos móviles */
+    }
+}
